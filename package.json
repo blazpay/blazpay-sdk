@@ -1,29 +1,35 @@
 {
-  "name": "@pancakeswap-libs/sdk-v2",
+  "name": "blazpay-sdk",
   "license": "MIT",
-  "version": "2.2.0",
-  "description": "🛠 An SDK for building applications on top of pancakeswap.",
+  "version": "1.0.2-cake-test",
+  "description": "SDK for interacting with Blazpay.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancakeswap-sdk.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blazpay/blazpay-sdk.git"
+  },
+  "author": "Team BLZ",
   "keywords": [
-    "pancakeswap",
-    "ethereum"
+    "blazpay"
   ],
+  "bugs": {
+    "url": "https://github.com/blazpay/blazpay-sdk/issues"
+  },
+  "homepage": "https://github.com/blazpay/blazpay-sdk#readme",
   "module": "dist/sdk.esm.js",
   "scripts": {
     "lint": "tsdx lint src test",
-    "lint:fix": "tsdx lint src test --fix",
     "build": "tsdx build",
     "start": "tsdx watch",
     "test": "tsdx test",
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@pancakeswap-libs/pancake-swap-core": "^0.1.0",
+    "@uniswap/v2-core": "^1.0.0",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
