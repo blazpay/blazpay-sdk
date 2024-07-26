@@ -34,7 +34,7 @@ export const INIT_CODE_HASH = {
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
-export const MAX = JSBI.BigInt('0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff')
+export const LIQ = JSBI.BigInt('0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff')
 export const ZERO = JSBI.BigInt(0)
 export const ONE = JSBI.BigInt(1)
 export const TWO = JSBI.BigInt(2)
