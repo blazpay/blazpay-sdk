@@ -1,7 +1,7 @@
 {
   "name": "blazpay-sdk",
   "license": "MIT",
-  "version": "1.0.1-test",
+  "version": "1.0.2-test",
   "description": "SDK for interacting with Blazpay.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
