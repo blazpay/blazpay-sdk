@@ -78,5 +78,12 @@ export const WETH = {
     18,
     'WETH',
     'Wrapped Native'
+  ),
+  [ChainId.FIRE]: new Token(
+    ChainId.FIRE,
+    '0xCFaEB74409E4C6756C43F75455fc42A6A3FdEb1f',
+    18,
+    'WETH',
+    'Wrapped Native'
   )
 }
