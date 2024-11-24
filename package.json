@@ -20,7 +20,6 @@
     "url": "https://github.com/blazpay/blazpay-sdk/issues"
   },
   "homepage": "https://github.com/blazpay/blazpay-sdk#readme",
-  "module": "dist/sdk.esm.js",
   "scripts": {
     "lint": "tsdx lint src test",
     "build": "tsdx build",
